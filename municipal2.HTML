@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+
+<head>
+<title>graphica</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"  href="new3.css"> 
+<style>
+
+body{
+background-image:
+
+}
+div.a{
+	 position: relative;
+    margin:0px;
+	background-color:#555;
+	border:collapse;
+    height:150px;
+
+	top:0px;
+    
+	color:white;
+	font-size:60px;
+} 
+
+div.a h1{display:inline-block;
+  position: absolute;
+ left: 250px;
+ color: #ffffff;
+ }
+
+img{ display: inline-block;
+position: absolute;
+left:30px ;
+top:10px;
+}
+
+div.b {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    color:white;
+    height:30px;
+	border:none;
+	font-size:40px;
+}.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav button {
+padding: 14px 16px;
+background-color:black;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #ff0000;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+ .sidenav a:hover {
+    color: #ffffff;
+	
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    margin: 0;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+	.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+table{ border:solid  2px;
+       border: collapse;
+       position:absolute; right:5px; top:200px;
+	   height:600px;
+	    width: 20%;
+	
+     }
+	 .list{
+	 position:relative;
+width:50px;
+}
+.list{
+border:solid 2px;
+width:40%;
+margin-left:400px;
+margin-top:80px;
+font-size:20px;
+background-color:#ff6600;
+}
+#bottom{max-width: 1700px;
+  	background-color: #ffffcc;
+  	height: 700px; width: 100%;
+  	margin: 0px;
+  	left: 0px; right: 0px;
+  }
+.complaint{position: absolute;
+	right:100px;
+	top:250px;
+width:45%;
+height:675px;
+background-color:#ffffcc;
+padding:20px;
+margin: 0px;
+border-radius: 15px;
+opacity: 0.1px;
+
+font-size: 18px;
+}
+
+
+
+
+
+
+#bottom h1{display: block;
+	position: absolute;
+	left:250px;
+	top: 200px;
+color: black;
+z-index: 1;}
+
+
+.complaint input[type=text]{padding: 10px 25px;
+	width: 200px;	height:10px;
+    border-radius: 0px;}
+
+
+
+.complaint input[type=button]{
+height: 30px; width:70px;	background-color: #ffffff;
+border-radius: 1px;
+}
+
+header h1{display:inline-block;
+ 	position: absolute;
+ left: 60px;
+ color: #ffffff;
+ }
+header img{ display: inline-block;
+position: absolute;
+left:30px ;
+top:10px;
+}
+
+#category{
+	height: 30px; width:200px;	background-color: #ffffff;
+border-radius: 1px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="a">
+<img src="logo.png"  style="height:100px; width:150px;"> 
+<h1 style="font-size: 30px">SMC.com</h1>
+<div class="b">complaint page</div>
+</div>
+
+
+<div class="topnav">
+<a style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776; </a>
+ <a class="active" href="municipal0.html">Home</a>
+  <a href="#news">Sewage</a>
+  <a href="#about">Electric poles</a>
+  <a href="#about">Road</a>
+  <a href="#about">Drainage</a>
+  <a href="#about">Sanitation</a>
+  
+ <a href="https://www.apspdcl.in/" >APSDCL</a>
+      
+	  
+	
+    </div>
+</div></div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">opening page</a>
+  <a href="#">certificate page</a>
+  <a href="#">profile</a>
+  <a href="#">notifications</a>
+  <a href="#">projects</a>
+  <a href="#">Complaint page</a>
+</div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div id="bottom">
+<h1><pre>                                               Complaint Form</pre></h1>
+<div class="complaint">
+	
+<pre><b>Company Name</b><form> 				<input type="text" ></pre></form>
+<pre><b>Complaint Subject</b><form>				<input type="text" ></pre></form>
+<pre><b>Complaint Details</b><form>				<textarea  name="text" rows="10" cols="30"></textarea></form></pre>
+<pre><b>Category</b><form>				<select id="category">
+    						<option value="select category">select category</option>
+    						<option value="Airlines">Airlines</option>
+    						<option value="Business & finances">Business & finances</option>
+    						<option value="Banks">Banks"</option>
+    						<option value="Insurance">Insurance</option>
+    						<option value="Stock Market">Stock Market</option>
+ 							 </select></pre></form>
+<pre><b>Door No.</b><form>				<input type="text" name="door no." placeholder="ex.-324-E"></form></pre>
+    						
+<pre><b>ZIP Code</b><form>				<input type="text" placeholder="ZIP Code"></pre></form>
+<pre><b>City(optional)</b><form>				<input type="text" placeholder="where is the company located.."></pre></from>
+<pre><b>Aadhar No.</b><form>		 	<input type="text" placeholder="Aadhar no."></pre></form>
+<pre><form>		       <input type="button" class="button" value="Submit" onclick="alert('congratulations you have completed ur complaint filing')">
+</form></pre></div>
+<div class="good">
+	</div>
+</section>
+
+<div class="tab1">
+
